@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Test if your user's password has been pwned using the haveibeenpwned.com API",
   "main": "index.js",
+  "browser": "browser.js",
   "types": "index.d.ts",
   "homepage": "https://havetheybeenpwned.netlify.com",
   "keywords": [
@@ -27,7 +28,9 @@
   ],
   "files": [
     "index.js",
-    "index.d.ts"
+    "browser.js",
+    "index.d.ts",
+    "lib"
   ],
   "author": "Jamie Kyle <me@thejameskyle.com>",
   "license": "MIT",
@@ -37,12 +40,10 @@
     "start": "parcel example/index.html"
   },
   "devDependencies": {
-    "@babel/polyfill": "^7.4.3",
     "ava": "^1.4.1",
     "parcel": "^1.12.3"
   },
   "dependencies": {
-    "crypto-hash": "^1.1.0",
     "isomorphic-fetch": "^2.2.1"
   }
 }
