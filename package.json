@@ -33,13 +33,16 @@
   "license": "MIT",
   "scripts": {
     "test": "ava test.js",
-    "example": "parcel build example/index.html"
+    "example": "parcel build example/index.html",
+    "start": "parcel example/index.html"
   },
   "devDependencies": {
+    "@babel/polyfill": "^7.4.3",
     "ava": "^1.4.1",
     "parcel": "^1.12.3"
   },
   "dependencies": {
+    "crypto-hash": "^1.1.0",
     "isomorphic-fetch": "^2.2.1"
   }
 }
