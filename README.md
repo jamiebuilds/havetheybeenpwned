@@ -33,6 +33,10 @@ That's it!
 
 ---
 
+## Other Implementations
+
+- [pwncheck](https://github.com/stripedpajamas/pwncheck) (Golang)
+
 ## Why you should use this
 
 There are lots of massive data dumps floating around the internet of email and
@@ -136,6 +140,3 @@ let regex = new RegExp(`^${suffix}:`, 'm')
 
 regex.test(body) // true (pwned), false (not pwned)
 ```
-
-## Other Implementations
-- [pwncheck](https://github.com/stripedpajamas/pwncheck) (Golang)
