@@ -4,12 +4,33 @@
   "description": "Test if your user's password has been pwned using the haveibeenpwned.com API",
   "main": "index.js",
   "types": "index.d.ts",
-  "keywords": [],
+  "homepage": "https://havetheybeenpwned.netlify.com",
+  "keywords": [
+    "haveibeenpwned",
+    "haveibeenpwned.com",
+    "have",
+    "i",
+    "they",
+    "been",
+    "pwned",
+    "secure",
+    "password",
+    "sha-1",
+    "sha",
+    "hash",
+    "algorithm",
+    "security",
+    "user",
+    "users",
+    "check",
+    "test"
+  ],
+  "files": ["index.js", "index.d.ts"],
   "author": "Jamie Kyle <me@thejameskyle.com>",
   "license": "MIT",
   "scripts": {
     "test": "ava test.js",
-    "example": "parcel example.html"
+    "example": "parcel build example.html"
   },
   "devDependencies": {
     "ava": "^1.4.1",

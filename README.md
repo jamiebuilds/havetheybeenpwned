@@ -3,6 +3,8 @@
 > Test if your user's password has been pwned using the
 > [haveibeenpwned.com](https://haveibeenpwned.com/) API
 
+[See Online](https://havetheybeenpwned.netlify.com)
+
 ## Install
 
 ```sh
