@@ -19,7 +19,16 @@ pwned("hunter42").then(isPwned => {
 })
 ```
 
+That's it!
+
+---
+
 ## How to build your own implementation
+
+In case you want to use this outside of NodeJS or the browser, here are some
+instructions (with JS examples) for checking the API yourself.
+
+If you do implement this in another language, please open a PR and link it here.
 
 ### 1. Hashing the password
 
