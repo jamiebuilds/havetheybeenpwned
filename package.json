@@ -1,6 +1,6 @@
 {
   "name": "havetheybeenpwned",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Test if your user's password has been pwned using the haveibeenpwned.com API",
   "main": "index.js",
   "types": "index.d.ts",
@@ -25,7 +25,10 @@
     "check",
     "test"
   ],
-  "files": ["index.js", "index.d.ts"],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "author": "Jamie Kyle <me@thejameskyle.com>",
   "license": "MIT",
   "scripts": {
