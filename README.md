@@ -129,7 +129,7 @@ Each line in the response is are the "suffixes" that match the "range" followed
 by a colon and a number of times the password has been pwned.
 
 Search for your suffix in the list. If it is present, the password has been
-pwned, if its not the password has not been pwned.
+pwned, if it’s not the password is not known to have been pwned.
 
 ```js
 let regex = new RegExp(`^${suffix}:`, 'm')
