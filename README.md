@@ -33,6 +33,32 @@ That's it!
 
 ---
 
+## Why you should use this
+
+There are lots of massive data dumps floating around the internet of email and
+password combos. These dumps can easily be used by bad actors (h@ck3rz) to mass
+check for reused passwords on _your_ website from _your_ users.
+
+While you can't completely break the practice of reused passwords, you can make
+sure that your users are using a password that has already been compromised.
+
+[haveibeenpwned.com](https://haveibeenpwned.com/) is a free service put
+together by [Troy Hunt](https://twitter.com/troyhunt) which provides an API to
+check for known compromised passwords.
+
+This package checks that API without ever sending the full password using the
+["k-anonymity" model](https://en.wikipedia.org/wiki/K-anonymity).
+
+It builds upon [Node.JS's `crypto` module](https://nodejs.org/api/crypto.html)
+and the [WebCrypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API)
+to create a hash of your password of which only the first 5 encoded characters
+are ever exposed. Check out the "How to build your own implementation" for full
+details.
+
+This package should take minutes to put in your application code, but if
+passing a password around makes you nervous. I highly recommend implementing
+this yourself.
+
 ## How to build your own implementation
 
 In case you want to use this outside of NodeJS or the browser, here are some
@@ -57,7 +83,6 @@ let hashed = crypto.createHash("sha1")
   .digest("hex")
   .toUpperCase()
 ```
-
 
 ### 2. Get the "range" and "suffix"
 
