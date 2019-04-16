@@ -1,0 +1,21 @@
+{
+  "name": "havetheybeenpwned",
+  "version": "1.0.0",
+  "description": "Test if your user's password has been pwned using the haveibeenpwned.com API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [],
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava test.js",
+    "example": "parcel example.html"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "parcel": "^1.12.3"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
