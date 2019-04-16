@@ -5,11 +5,19 @@
 
 [See Online](https://havetheybeenpwned.netlify.com)
 
+- Works in modern browsers or in NodeJS
+- Small: ~3kb (with included `fetch` polyfill)
+- Quickly make your users' passwords more secure
+
 ## Install
 
 ```sh
 npm install --save havetheybeenpwned
 ```
+
+> **Note:** If you support browsers that don't
+> [support WebCrypto](https://caniuse.com/#feat=cryptography), you can use a
+> [polyfill](https://www.npmjs.com/package/webcrypto-shim).
 
 ## Usage
 
