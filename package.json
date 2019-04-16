@@ -33,7 +33,7 @@
   "license": "MIT",
   "scripts": {
     "test": "ava test.js",
-    "example": "parcel build example.html"
+    "example": "parcel build example/index.html"
   },
   "devDependencies": {
     "ava": "^1.4.1",

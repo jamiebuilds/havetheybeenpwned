@@ -1,4 +1,4 @@
-import pwned from "./"
+import pwned from ".."
 
 let input = document.getElementById("input")
 let toggle = document.getElementById("toggle")
