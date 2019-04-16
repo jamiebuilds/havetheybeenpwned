@@ -136,3 +136,6 @@ let regex = new RegExp(`^${suffix}:`, 'm')
 
 regex.test(body) // true (pwned), false (not pwned)
 ```
+
+## Other Implementations
+- [pwncheck](https://github.com/stripedpajamas/pwncheck) (Golang)
