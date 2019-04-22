@@ -36,6 +36,7 @@ That's it!
 ## Other Implementations
 
 - [pwncheck](https://github.com/stripedpajamas/pwncheck) (Golang)
+- [pwndpassword](https://github.com/korlando7/pwndpassword) (Clojure)
 
 ## Why you should use this
 
